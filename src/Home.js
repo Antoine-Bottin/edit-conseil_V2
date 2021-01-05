@@ -1,16 +1,15 @@
 import React from 'react';
 //import './CSS/Home.css'
 import { slide as Menu } from 'react-burger-menu'
-import './CSS/Home.css'
+import './css/Home.css'
 
 
 
 function Home() {
   return (
-      <div>
+      <div id="outer-container">
         <Menu   right 
                 width={'15%'}
-                
                 >
             <a id="edit" className="menu-item" href="/">Edit.</a>
             <a id="prestations" className="menu-item" href="/prestations">Prestations</a>

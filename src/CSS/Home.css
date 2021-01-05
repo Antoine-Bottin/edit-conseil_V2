@@ -1,3 +1,8 @@
+#outer-container{
+  height:100vh;
+  width:100vw;
+  background-image:url('../assets/Capture d’écran 2017-10-25 à 12.13.12.png')
+}
 /* Position and sizing of burger button */
 .bm-burger-button {
     position: fixed;
@@ -36,12 +41,12 @@
   */
   .bm-menu-wrap {
     position: fixed;
-    height: 100%;
+    height: 100vh;
   }
   
   /* General sidebar styles */
   .bm-menu {
-    background:grey;
+    background:rgba(128, 128, 128, 0.5);
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
     border-radius:20px 0 0 20px
@@ -62,12 +67,13 @@
   /* Individual item */
   .bm-item {
     display: inline-block;
-    font-size:15px;
+    font-size:18px;
+    margin-top:5px;
     text-decoration:none;
     color:pink
   }
   
   /* Styling of overlay */
   .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.116);
   }
