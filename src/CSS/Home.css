@@ -1,7 +1,8 @@
 #outer-container{
   height:100vh;
   width:100vw;
-  background-image:url('../assets/Capture d’écran 2017-10-25 à 12.13.12.png')
+  background-image:url('../assets/Capture d’écran 2017-10-25 à 12.13.12.png');
+  background-size:fixed;
 }
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -76,4 +77,15 @@
   /* Styling of overlay */
   .bm-overlay {
     background: rgba(0, 0, 0, 0.116);
+  }
+  .parallaxOne{
+    height:30vh;
+    
+  }
+  .parallaxOne-content{
+    background-color:white;
+    left:50%;
+    top:50%;
+    position:absolute;
+    
   }

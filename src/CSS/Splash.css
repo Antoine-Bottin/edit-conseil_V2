@@ -1,7 +1,7 @@
 
 .background{
-    background-image:url('../assets/Capture d’écran 2017-10-25 à 12.13.12.png')
-
+    background-image:url('../assets/Capture d’écran 2017-10-25 à 12.13.12.png');
+    background-size:cover;
 }
 .container{
     margin:0 auto;
