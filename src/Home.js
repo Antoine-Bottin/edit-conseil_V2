@@ -21,12 +21,19 @@ function Home() {
         </Menu>
         <Parallax bgImage={require("./assets/cover-r4x3w1000-5cadebdd93968-trou-noir-galaxie.jpg")} bgImageSize={'height:30vh'} strength={500}>
           <div className='parallaxOne'>
-              <div className='parallaxOne-content'>HTML inside the parallax</div>
+              <div className='parallaxOne-content'>A propos de moi</div>
           </div>
         </Parallax>
-        <div style={{height:'100vh'}}>
-
-        </div>
+        <Parallax bgImage={require("./assets/cover-r4x3w1000-5cadebdd93968-trou-noir-galaxie.jpg")} bgImageSize={'height:30vh'} strength={500}>
+          <div className='parallaxOne'>
+              <div className='parallaxOne-content'>Mes services</div>
+          </div>
+        </Parallax>
+        <Parallax bgImage={require("./assets/cover-r4x3w1000-5cadebdd93968-trou-noir-galaxie.jpg")} bgImageSize={'height:30vh'} strength={500}>
+          <div className='parallaxOne'>
+              <div className='parallaxOne-content'>Me contacter</div>
+          </div>
+        </Parallax>
       </div>
   );
 }
