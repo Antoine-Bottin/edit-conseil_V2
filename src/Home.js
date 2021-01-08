@@ -1,5 +1,4 @@
 import React from 'react';
-//import './CSS/Home.css'
 import { slide as Menu } from 'react-burger-menu'
 import './css/Home.css'
 import { Parallax } from 'react-parallax';
